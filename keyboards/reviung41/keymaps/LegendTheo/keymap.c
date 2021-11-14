@@ -33,6 +33,7 @@ enum layer_names {
 #define CUT    LCTL(KC_X)
 #define SEARCH LALT(KC_SPC)
 #define LOCK   RGUI(KC_L)
+#define BREAK  LCTL(KC_BRK)
 
 const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
   [_BASE] = LAYOUT_reviung41(
